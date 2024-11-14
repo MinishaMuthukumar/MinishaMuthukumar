@@ -3,8 +3,8 @@
 - 🌱 I’m currently studying B.TECH-IT
 - 💞️ I’m looking to collaborate on google,microsoft
 - 📫 How to reach me at www.linkedin.com/in/minisha-muthukumar-8524ab2a1
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- 😄 Pronouns:Minisha
+
 
 <!---
 MinishaMuthukumar/MinishaMuthukumar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
