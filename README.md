@@ -2,7 +2,7 @@
 - 👀 I’m interested in cybersecurity
 - 🌱 I’m currently studying B.TECH-IT
 - 💞️ I’m looking to collaborate on google,microsoft
-- 📫 How to reach me 
+- 📫 How to reach me at www.linkedin.com/in/minisha-muthukumar-8524ab2a1
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
