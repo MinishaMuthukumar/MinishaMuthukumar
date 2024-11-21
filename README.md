@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @MinishaMuthukumar
-- 👀 I’m interested in cybersecurity
+- 👀 I’m interested in cybersecurity and ethical hacking
 - 🌱 I’m currently studying B.TECH-IT
 - 💞️ I’m looking to collaborate on google,microsoft
 - 📫 How to reach me at www.linkedin.com/in/minisha-muthukumar-8524ab2a1
