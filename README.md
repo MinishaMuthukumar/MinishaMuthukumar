@@ -19,9 +19,6 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-# 💫 About Me:
-i am minishamuthukumar a cybersecurity and ethical hacker enthiuasist and i am currently focus on developing my skills on recent trends and technology in cybersecurity and i am currently working on the project on sql injection detector you can find me in github in the name of minishamuthukumar same goes to all the current working platform like leetcode hackerrank, try hack me and linked in we can contect me if you need to colobrate with me  i have knowlege on python, html, java and the knowlege about how to use automation ai tools i 
-
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/minishamuthukumar) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/minishamuthukumar) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/minishamuthukumar) [![Codepen](https://img.shields.io/badge/Codepen-000000?logo=codepen&logoColor=white)](https://codepen.io/minishamuthukumar) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:minishamuthukumar123@gmail.com) 
