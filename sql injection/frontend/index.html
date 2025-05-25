@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SQL Injection Detector</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f4f8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+    h1 {
+      color: #333;
+    }
+    .container {
+      background: white;
+      padding: 20px 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+    input, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .result {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>SQL Injection Detector</h1>
+
+  <div class="container">
+    <label for="userInput">Enter your query or input:</label>
+    <input type="text" id="userInput" placeholder="Enter query here...">
+    <button onclick="detectSQLInjection()">Check for SQL Injection</button>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script>
+    async function detectSQLInjection() {
+      const userInput = document.getElementById('userInput').value;
+      const resultDiv = document.getElementById('result');
+
+      resultDiv.textContent = "Analyzing...";
+
+      try {
+        const response = await fetch('https://your-backend-url.onrender.com/detect', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ input: userInput }),
+        });
+
+        const data = await response.json();
+
+        if (data.result === 'safe') {
+          resultDiv.textContent = "✅ Input is safe.";
+          resultDiv.style.color = "green";
+        } else {
+          resultDiv.textContent = "⚠️ SQL Injection Detected!";
+          resultDiv.style.color = "red";
+        }
+      } catch (error) {
+        resultDiv.textContent = "❌ Error connecting to backend.";
+        resultDiv.style.color = "orange";
+      }
+    }
+  </script>
+
+</body>
+</html>
